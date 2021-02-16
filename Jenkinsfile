@@ -10,5 +10,11 @@ ls
       }
     }
 
+    stage('crear nuevo archivo') {
+      steps {
+        writeFile(file: 'mitest.txt', text: 'Nuestro inicio en Jenkins')
+      }
+    }
+
   }
 }
