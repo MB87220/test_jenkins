@@ -4,6 +4,9 @@ pipeline {
     stage('iniciar') {
       steps {
         echo 'Hola mundo'
+        sh '''printenv
+ls
+'''
       }
     }
 
