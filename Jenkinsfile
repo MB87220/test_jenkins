@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('iniciar') {
       steps {
-        echo 'Hola paola'
+        echo 'Hola $nombre'
         sh '''printenv
 ls
 '''
