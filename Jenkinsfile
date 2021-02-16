@@ -18,4 +18,7 @@ ls
     }
 
   }
+  environment {
+    nombre = 'paola'
+  }
 }
