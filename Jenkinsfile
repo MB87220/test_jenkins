@@ -19,7 +19,7 @@ ls
 
     stage('despedida') {
       steps {
-        input(message: 'lastima que termino', ok: 'Excelente taller')
+        input(message: '!lastima que termino¡', ok: 'Excelente taller')
       }
     }
 
