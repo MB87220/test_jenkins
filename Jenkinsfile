@@ -17,6 +17,12 @@ ls
       }
     }
 
+    stage('despedida') {
+      steps {
+        input(message: 'lastima que termino', ok: 'Excelente taller')
+      }
+    }
+
   }
   environment {
     nombre = 'paola'
